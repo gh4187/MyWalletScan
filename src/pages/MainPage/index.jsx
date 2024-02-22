@@ -61,19 +61,6 @@ function MainPage() {
                     </div>
                 </div>
             </Layout>
-            <Modal
-                title="版本更新"
-                open={isModalVisible}
-                onOk={handleOk}
-                onCancel={handleCancel}
-                okText="前往"
-                cancelText="取消"
-            >
-                <p>最新新版本</p>
-                <p>
-                    https://addrtracker.xyz/
-                </p>
-            </Modal>
         </div>
     );
 }
